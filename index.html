@@ -3,112 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syifabela Suratinoyo</title>
+    <title>Syifabela Suratinoyo - Student</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <header>
-            <img src="assets/logo.jpg" alt="Personal Homepage">
-    </header>
-    <hr>
-    <nav>
-        <table cellspacing="5" cellpadding="5">
-            <tr>
-                <td><a href="#home">Home</a></td>
-                <td><a href="#gallery">Gallery</a></td>
-                <td><a href="#blog">Blog</a></td>
-                <td><a href="#contact">Contact</a></td>
-            </tr>
-        </table>
-    </nav>
-    <hr>
-    <h1>Welcome to my personal homepage!</h1>
-
-    <div>
-        <p>Perkenalkan nama saya, <b>Syifabela</b>. Dalam Personal Homepage ini akan berisi, data diri, galeri, blog, dan kontak saya.</p>
-    </div>
-
-    <section id="home">
-        <h2>Data Diri:</h2>
-        <ul>
-            <li><b>Nama:</b> Syifabela Suratinoyo</li>
-            <li><b>TTL:</b> Gorontalo, 20 Juli 2004</li>
-            <li><b>Agama:</b> Islam</li>
-            <li><b>Studi:</b> Universitas Sam Ratulangi</li>
-            <li><b>Hobi:</b> Membaca</li>
-        </ul>
-    </section>
-
-    <img src="assets/syifabela.jpg" alt="Foto Syifabela" width="200">
-
-    <hr>
-
-    <div id="gallery">
-        <h2>Gallery</h2>
-        <div>
-            <img src="assets/foto1.jpg" alt="Foto 1" width="200">
-            <img src="assets/foto2.jpg" alt="Foto 2" width="200">
-            <img src="assets/foto3.jpg" alt="Foto 3" width="200">
+     <nav>
+        <div class="wrapper">
+             <div class="logo">
+               <img src="assets/logo1.png" alt="HomePage">
+             </div>
+             <div class="menu">
+                 <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+             </div> 
         </div>
-        <div>
-            <img src="assets/foto4.jpg" alt="Foto 4" width="200">
-            <img src="assets/foto5.jpg" alt="Foto 5" width="200">
-            <img src="assets/foto6.jpg" alt="Foto 6" width="200">
-        </div>
-        <div>
-            <img src="assets/foto7.jpg" alt="Foto 7" width="200">
-            <img src="assets/foto8.jpg" alt="Foto 8" width="200">
-            <img src="assets/foto9.jpg" alt="Foto 9" width="200">
-        </div>
-    </div>
+     </nav>
+      <!--untuk home-->
+      <div class="wrapper">
+          <section id="home">
+               <div class="detel">
+                    <h1>Hello! I'm <span>Syifabela Suratinoyo</span></h1>
+                    <p>Welcome to my personal homepage! Find inspiring works in the gallery,
+                          <br>nteresting stories on the blog, and feel free to contact me through the contact page. Enjoy!
+                         </p>
+                         
+                         <div class="images">
+                               <img src="assets/cipa.png" alt="syifabela">
+                              </div>       
+               </div>
+          </section>
+     </div>
 
-    <hr>
+     <!--untuk gallery-->
+     <section id="gallery">
+          <div class="photo">
+               <div class="gallery-title">
+                    <h2>───── <span>Welcome My Gallery</span> ─────</h2>
+               </div>
+               <div class="gallery-icon">
+                    <div>
+                         <img src="assets/foto1.jpg" alt="Foto 1" width="200">
+                         <img src="assets/foto2.jpg" alt="Foto 2" width="200">
+                         <img src="assets/foto3.jpg" alt="Foto 3" width="200">
+                         <img src="assets/foto4.jpg" alt="Foto 4" width="200">
+                         <img src="assets/foto5.jpg" alt="Foto 5" width="200">
+                         <img src="assets/foto6.jpg" alt="Foto 6" width="200">
+                         <img src="assets/foto7.jpg" alt="Foto 7" width="200">
+                         <img src="assets/foto8.jpg" alt="Foto 8" width="200">
+                         <img src="assets/foto9.jpg" alt="Foto 9" width="200">
+                         <img src="assets/foto10.jpg" alt="Foto 9" width="200">
+                     </div>
+               </div>
+     </div>
+     </section>
+     
+     <!--untuk blog-->
+     <section id="blog">
+          <div class="container">
+               <div class="blog-title">
+                    <h2><span>Recent Article </span>─────</h2>
+               </div>
+          </div>
 
-    <div id="blog">
-        <h2>Blog</h2>
-        <div>
-            <article>
-                <h3>Website</h3>
-                <a href="https://www.cnbcindonesia.com/tech/20220618152119-37-348229/7-pengertian-website-menurut-ahli-lengkap-jenis-fungsinya">
-                    <img src="assets/website.jpg" alt="Foto Website" width="200">
-                </a>
-                <p>Website merupakan fasilitas internet yang menghubungkan dokumen dalam lingkup lokal maupun jarak jauh. Dokumen dalam website disebut dengan webpage dan link dalam website dapat digunakan oleh pengguna untuk beralih dari satu halaman ke halaman (hyertext) lain baik antar halam yang disimpan di server yang sama maupun dalam server yang ada di seluruh dunia. Halaman (page) dapat diakses atau dibaca melalui browser seperti Google Chrome, Mozilla Firefox dan lain sebagainya.</p>
-            </article>
-        </div>
-        <div>
-            <article>
-                <h3>HTML</h3>
-                <a href="https://www.hostinger.co.id/tutorial/apa-itu-html">
-                    <img src="assets/html.jpg" alt="Foto HTML" width="200">
-                </a>
-                <p>HTML adalah bahasa markup yang umumnya digunakan untuk menyusun bagian paragraf, heading, maupun link pada halaman web. Namun, meskipun susunannya seperti coding, perlu diketahui bahwa HTML bukanlah bahasa pemrograman.</p>
-            </article>
-        </div>
-        <div>
-            <article>
-                <h3>CSS</h3>
-                <a href="https://www.hostinger.co.id/tutorial/apa-itu-css">
-                    <img src="assets/css.jpg" alt="Foto CSS" width="200">
-                </a>
-                <p>CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.</p>
-            </article>
-        </div>
-    </div>
+          <!--article 1-->
+          <div class="articles">
+               <article class="article-container">
+                   <a href="https://www.antaranews.com/berita/4034493/smartfren-perkuat-jaringan-dan-beri-promo-kuota-sambut-idul-fitri?utm_source=antaranews&utm_medium=desktop&utm_campaign=top_news" class="article-link">
+                       <div class="article-content">
+                           <img src="assets/article1.webp" alt="Gambar 1" class="article-image">
+                           <div>
+                               <h2 class="article-title">Smartfren perkuat jaringan dan beri promo kuota sambut Idul Fitri</h2>
+                               <p class="article-description">Jakarta (ANTARA) - Smartfren terus melakukan optimasi jaringan di seluruh wilayah operasionalnya 
+                                   <br>serta memberikan promo paket data spesial untuk seluruh pelanggan dalam menyambut momen 
+                                   <br>Ramadhan dan Idul Fitri 1445 H.</p>
+                           </div>
+                       </div>
+                   </a>    
+               </article>
+          </div>
 
-    <hr>
+          <!--article 2-->
+          <div class="articles">
+               <article class="article-container">
+                   <a href="https://www.antaranews.com/berita/4034247/percepat-pengembangan-kecerdasan-buatan-china-bangun-pusat-inovasi-ai" class="article-link">
+                       <div class="article-content">
+                           <img src="assets/article2.webp" alt="Gambar 2" class="article-image">
+                           <div>
+                               <h2 class="article-title">Percepat pengembangan kecerdasan buatan,<br> China bangun Pusat Inovasi AI</h2>
+                               <p class="article-description">Beijing (ANTARA) - Model besar kecerdasan buatan (artificial intelligence/AI) yang diwakili oleh ChatGPT, 
+                                   <br>memimpin gelombang baru pengembangan teknologi AI global, dengan penelitian baru terkait dan 
+                                   <br>munculnya beragam produk-produk baru</p>
+                           </div>
+                       </div>
+                   </a>    
+               </article>
+          </div>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can contact me via the following methods:</p>
-        <ul>
-            <li>Email    : syifasuratinoyo@gmail.com</li>
-            <li>Instagram: @syifasuratinoyo</li>
-        </ul>
-    </section>
+          <!--article 3-->
+          <div class="articles">
+               <article class="article-container">
+                   <a href="https://www.antaranews.com/berita/4031643/menkominfo-media-harus-adopsi-perkembangan-teknologi?utm_source=antaranews&utm_medium=desktop&utm_campaign=category_home" class="article-link">
+                       <div class="article-content">
+                           <img src="assets/article3.webp" alt="Gambar 3" class="article-image">
+                           <div>
+                               <h2 class="article-title">Menkominfo: Media harus adopsi perkembangan teknologi</h2>
+                               <p class="article-description">Jakarta (ANTARA)  -  Menteri Komunikasi dan Informatika (Menkominfo) Budi Arie Setiadi mengatakan
+                                   <br>industri media harus mampu beradaptasi terhadap perkembangan zaman termasuk mengadopsi
+                                   <br>perkembangan teknologi saat ini.</p>
+                           </div>
+                       </div>
+                   </a>    
+               </article>
+          </div>
+     </section>
 
-    <hr>
+     <!--untuk about-->
+     <section id="about">
+          <div class="img">
+               <img src="assets/cipa1.jpg" alt="me">
+               
+               <div class="me">
+                    <h1>Hi! I'm <span>Syifabela</span></h1>
+                    <p> I am an Informatics Engineering student who is currently in my second year at Sam Ratulangi University.</p>
+                    <p1>
+                    <br>I was born in Gorontalo on July 20th, making me a Cancer zodiac sign. I have 2 siblings, an older
+                    <br>sister and an older brother. Our family has 42 cats, and I hope the number doesn't increase. 
+                    <br>Currently, my activities involve attending classes, participating in the "Unity" campus community, 
+                    <br>and also being part of the religious organization "BTFT Universitas Sam Ratulangi".
+                    </p1>
+                    <p1>
+                         <br><br>Right now, I am learning how to create websites using HTML, CSS, JavaScript, and PHP. 
+                         <br>Additionally, I am also studying UI/UX through the Unity community, which provides specialized 
+                         <br>learning for those who are truly interested in learning.
+                    </p1>
+               </div>       
+          </div>
+     </section>
 
-    <footer>
-        &copy; 2024 My Personal Homepage
-    </footer>
+     <!--untuk contact-->
+     <section id="contact">
+          <div class="phone">
+               <div class="footer">
+                    <div class="footer-section">
+                         <h3>Address</h3>
+                         <p>Yusuf Hasiru Street No. 143, Kleak, Neighborhood II, Malalayang, Manado.
+                              <br>In the alley of State 
+                              <br>Senior High School 9 Regular
+                              <br><br>(Google Maps: Dapoerkarisya Jo).
+                         </p>
+                    </div>
+                    <div class="footer-section">
+                         <h3>Phone</h3>
+                         <p>082293749996
+                         </p>
+                    </div>
+                    <div class="footer-section">
+                         <h3>Social</h3>
+                         <p><b>Instagram:</b> @syifasuratinoyo
+                         </p>
+                    </div>
+                    <div class="footer-section">
+                         <h3>Email</h3>
+                         <p>syifabelasuratinoyo026@student.unsrat.ac.id
+                         </p>
+                    </div>
+               </div>
+
+          </div>
+     </section>
+
+          <div id="copyright">
+               <div class="cr">
+                    &copy; 2024. <b>Syifabela Suratinoyo</b> All Rights Reserved
+               </div>
+          </div>
 </body>
 </html>
