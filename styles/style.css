@@ -202,14 +202,14 @@ span {
 
 
 .box h2{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0;
     margin-top: 150px;
 }
 
 
 .box p1 {
-    font-size: 14px; 
+    font-size: 15px; 
     color: #666;
     line-height: 1.6; 
     margin-bottom: 10px; 
@@ -217,7 +217,7 @@ span {
 
 
 .box p2 {
-    font-size: 14px;
+    font-size: 15px;
     color: #666;
     line-height: 1.6; 
     margin-bottom: 10px; 
