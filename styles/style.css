@@ -31,6 +31,19 @@ span {
 }
 
 
+.message {
+    position: sticky;
+    top: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #D14D72;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
 /* navbar */
 .navbar {
     display: flex;
@@ -407,11 +420,12 @@ span {
 .article-title .article-link {
     display: inline-block;
     padding: 8px 16px;
-    background-color: pink;
+    background-color: #D14D72;
     border-radius: 4px;
     margin-top: 16px;
     text-decoration: none;
     font-size: 12px;
+    color: white;
 }
 /* blog */
 
@@ -434,6 +448,62 @@ span {
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
+}
+
+
+.contact-me form {
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.contact-me form .box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: none;
+    border: 1.2px solid black;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+
+.contact-me form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+
+.contact-me form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contact-me form .flex .box {
+    width: 49%;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: 1rem 5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: inline-block;
+    background-color: #D14D72;
+    color: white;
+}
+
+
+.btn:hover {
+    background-color: black;
+    color: white;
 }
 
 
