@@ -1,4 +1,4 @@
-# Mid.Project-Personal.Homepage
+# Project.04-PHP.MySQL
 ## Tujuan
 Membuat personal homepage atau web portofolio sederhana.
 
